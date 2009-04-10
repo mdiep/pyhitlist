@@ -1,0 +1,12 @@
+
+PyHitList - A Python Interface to The Hit List
+
+0. Prerequisites
+
+  py-appscript
+  http://appscript.sourceforge.net/py-appscript/index.html
+
+  If you have trouble installing py-appscript, try upgrading setuptools:
+
+      sudo easy_install -U setuptools
+
