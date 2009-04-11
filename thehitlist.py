@@ -6,15 +6,21 @@ class Group(object):
     def __init__(self, osagrp):
         self.osagrp = osagrp
 
-    def getname(self):
+    def __getname(self):
         return self.osagrp.name.get()
-    def setname(self, value):
+    def __setname(self, value):
         self.osagrp.name.set(value)
-    name = property(getname, setname)
+    name = property(__getname, __setname)
     
     @property
     def tasks(self):
         return [Task(t) for t in self.osagrp.tasks.get()]
+
+
+class List(Group):
+    @property
+    def name(self):
+        return super(List,self).name
 
 
 class Tag(Group):
@@ -23,6 +29,10 @@ class Tag(Group):
 
 class TheHitList(object):
     app = appscript.app('The Hit List')
+    
+    inbox    = List(app.inbox)
+    today    = List(app.today_list)
+    upcoming = List(app.upcoming_list)
     
     @classmethod
     def tags(cls):
