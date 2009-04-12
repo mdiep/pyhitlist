@@ -5,7 +5,7 @@ import appscript
 class Group(object):
     def __init__(self, osagrp):
         self.osagrp = osagrp
-
+    
     def __getname(self):
         return self.osagrp.name.get()
     def __setname(self, value):
@@ -14,6 +14,9 @@ class Group(object):
 
 
 class Folder(Group):
+    def __iter__(self):
+        return iter(self.groups)
+    
     @property
     def groups(self):
         groups = []
@@ -27,6 +30,9 @@ class Folder(Group):
 
 
 class List(Group):
+    def __iter__(self):
+        return iter(self.tasks)
+    
     @property
     def name(self):
         return super(List,self).name
@@ -37,6 +43,9 @@ class List(Group):
 
 
 class Tag(Group):
+    def __iter__(self):
+        return iter(self.tasks)
+    
     @property
     def tasks(self):
         return [Task(t) for t in self.osagrp.tasks.get()]
