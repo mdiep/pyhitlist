@@ -10,3 +10,10 @@ PyHitList - A Python Interface to The Hit List
 
       sudo easy_install -U setuptools
 
+1. Example
+
+  from thehitlist import *
+  for task in TheHitList.inbox:
+      print task.title
+
+
