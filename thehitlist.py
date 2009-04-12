@@ -81,4 +81,10 @@ class Task(object):
     def settitle(self, value):
         self.osatask.title.set(value)
     title = property(gettitle, settitle)
+    
+    def __priority(self):
+        return self.osatask.priority.get()
+    def __setpriority(self, value):
+        self.osatask.priority.set(value)
+    priority = property(__priority, __setpriority)
 
