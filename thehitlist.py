@@ -11,20 +11,35 @@ class Group(object):
     def __setname(self, value):
         self.osagrp.name.set(value)
     name = property(__getname, __setname)
-    
+
+
+class Folder(Group):
     @property
-    def tasks(self):
-        return [Task(t) for t in self.osagrp.tasks.get()]
+    def groups(self):
+        groups = []
+        for g in self.osagrp.groups.get():
+            try:
+                g.groups.get()
+                groups.append(Folder(g))
+            except:
+                groups.append(List(g))
+        return groups
 
 
 class List(Group):
     @property
     def name(self):
         return super(List,self).name
+    
+    @property
+    def tasks(self):
+        return [Task(t) for t in self.osagrp.tasks.get()]
 
 
 class Tag(Group):
-    pass    
+    @property
+    def tasks(self):
+        return [Task(t) for t in self.osagrp.tasks.get()]
 
 
 class TheHitList(object):
@@ -33,6 +48,8 @@ class TheHitList(object):
     inbox    = List(app.inbox)
     today    = List(app.today_list)
     upcoming = List(app.upcoming_list)
+    
+    groups = Folder(app.folders_group)
     
     @classmethod
     def tags(cls):
