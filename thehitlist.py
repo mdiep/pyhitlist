@@ -58,7 +58,7 @@ class TheHitList(object):
     today    = List(app.today_list)
     upcoming = List(app.upcoming_list)
     
-    groups = Folder(app.folders_group)
+    groups = Folder(app.folders_group).groups
     
     @classmethod
     def tags(cls):
