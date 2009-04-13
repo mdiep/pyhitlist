@@ -79,6 +79,10 @@ class Task(object):
         if isinstance(title, appscript.reference.Reference):
             self.osatask = title
         else:
+            for name in kwargs.pop('tags', []):
+                title += ' /' + name
+                if ' ' in name:
+                    title += '/'
             folder = kwargs.pop('folder', TheHitList.inbox)
             keynames = {
                 'notes':    appscript.k.notes,
