@@ -73,8 +73,23 @@ class Task(object):
                 return tag.tasks
         return []
     
-    def __init__(self, osatask):
-        self.osatask = osatask
+    def __init__(self, title, **kwargs):
+        # internally, we actually pass in an osatask to load
+        # an existing object
+        if isinstance(title, appscript.reference.Reference):
+            self.osatask = title
+        else:
+            folder = kwargs.pop('folder', TheHitList.inbox)
+            keynames = {
+                'priority': appscript.k.priority,
+            }
+            props = {}
+            props[appscript.k.title] = title
+            for key, value in kwargs.items():
+                if key in keynames:
+                    props[keynames[key]] = kwargs[key]
+            
+            folder.osagrp.make(new=appscript.k.task, with_properties=props)
     
     def gettitle(self):
         return self.osatask.title.get()
