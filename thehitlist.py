@@ -81,6 +81,7 @@ class Task(object):
         else:
             folder = kwargs.pop('folder', TheHitList.inbox)
             keynames = {
+                'notes':    appscript.k.notes,
                 'priority': appscript.k.priority,
             }
             props = {}
@@ -96,6 +97,12 @@ class Task(object):
     def settitle(self, value):
         self.osatask.title.set(value)
     title = property(gettitle, settitle)
+    
+    def __notes(self):
+        return self.osatask.notes.get()
+    def __setnotes(self, value):
+        self.osatask.notes.set(value)
+    notes = property(__notes, __setnotes)
     
     def __priority(self):
         return self.osatask.priority.get()
