@@ -94,7 +94,7 @@ class Task(object):
                 if key in keynames:
                     props[keynames[key]] = kwargs[key]
             
-            folder.osagrp.make(new=appscript.k.task, with_properties=props)
+            self.osatask = folder.osagrp.make(new=appscript.k.task, with_properties=props)
     
     def gettitle(self):
         return self.osatask.title.get()
