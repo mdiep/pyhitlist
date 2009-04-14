@@ -27,6 +27,15 @@ class Folder(Group):
             except:
                 groups.append(List(g))
         return groups
+    
+    def __getitem__(self, key):
+        if type(key) == int:
+            return self.groups[key]
+        if type(key) == str:
+            for g in self.groups:
+                if g.name == key:
+                    return g
+        raise KeyError, key
 
 
 class List(Group):
