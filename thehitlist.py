@@ -38,6 +38,12 @@ class Folder(Group):
         raise KeyError, key
 
 
+class TagFolder(Folder):
+    @property
+    def groups(self):
+        return [Tag(t) for t in self.osagrp.groups.get()]
+
+
 class List(Group):
     def __iter__(self):
         return iter(self.tasks)
@@ -67,21 +73,11 @@ class TheHitList(object):
     today    = List(app.today_list)
     upcoming = List(app.upcoming_list)
     
-    groups = Folder(app.folders_group).groups
-    
-    @classmethod
-    def tags(cls):
-        return [Tag(t) for t in cls.app.tags_group.groups.get()]
+    groups = Folder(app.folders_group)
+    tags   = TagFolder(app.tags_group)
 
 
 class Task(object):
-    @classmethod
-    def find_tagged(cls, tagname):
-        for tag in TheHitList.tags():
-            if tag.name == tagname:
-                return tag.tasks
-        return []
-    
     def __init__(self, title, **kwargs):
         # internally, we actually pass in an osatask to load
         # an existing object
