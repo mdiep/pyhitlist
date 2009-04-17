@@ -1,5 +1,6 @@
 
 import appscript
+import re
 
 
 class Group(object):
@@ -31,7 +32,7 @@ class Folder(Group):
     def __getitem__(self, key):
         if type(key) == int:
             return self.groups[key]
-        if type(key) == str:
+        if type(key) == str or type(key) == unicode:
             for g in self.groups:
                 if g.name == key:
                     return g
@@ -77,6 +78,14 @@ class TheHitList(object):
     tags   = TagFolder(app.tags_group)
 
 
+class TagError(Exception):
+    def __init__(self, value):
+        self.value = value
+    
+    def __str__(self):
+        return repr(self.value)
+
+
 class Task(object):
     def __init__(self, title, **kwargs):
         # internally, we actually pass in an osatask to load
@@ -118,4 +127,29 @@ class Task(object):
     def __setpriority(self, value):
         self.osatask.priority.set(value)
     priority = property(__priority, __setpriority)
+    
+    def istagged(self, name):
+        for tag in self.tags:
+            if tag.name == name:
+                return True
+        return False
+    
+    @property
+    def tags(self):
+        pattern = re.compile(r'\s/(?P<tag>[^/]*[^/ ])/?')
+        names   = (match.group('tag') for match in pattern.finditer(self.title))
+        return [TheHitList.tags[name] for name in names];
+    
+    def tag(self, name):
+        if self.istagged(name):
+            raise TagError, "already tagged " + name
+        if ' ' in name:
+            name += '/'
+        self.title += ' /' + name
+    
+    def untag(self, name):
+        if not self.istagged(name):
+            raise TagError, "not tagged " + name
+        pattern    = re.compile(r'\s/' + re.escape(name) + r'/?')
+        self.title = pattern.sub('', self.title)
 
