@@ -29,6 +29,13 @@ class TaskTestCase(HitListTest):
         self.assertEqual(len(task.tags), 2)
         self.assertEqual(task.tags[0].name, 'foo bar')
         self.assertEqual(task.tags[1].name, 'blah')
+    
+    def test_03_start_date(self):
+        today = TheHitList.today
+        uno   = TheHitList.folders['Uno'].tasks[0]
+        self.assertEqual(len(today.tasks), 1)
+        uno.start_today()
+        self.assertEqual(len(today.tasks), 2)
 
 if __name__ == '__main__':
     unittest.main()

@@ -1,6 +1,7 @@
 
 import appscript
 import re
+from datetime import date
 
 
 class Group(object):
@@ -152,4 +153,7 @@ class Task(object):
             raise TagError, "not tagged " + name
         pattern    = re.compile(r'\s/' + re.escape(name) + r'/?')
         self.title = pattern.sub('', self.title)
+    
+    def start_today(self):
+        self.osatask.start_date.set(date.today())
 
