@@ -17,13 +17,14 @@
 				<key>displayOrder</key>
 				<real>2000</real>
 				<key>modifiedDate</key>
-				<date>2009-04-18T06:18:24Z</date>
+				<date>2009-04-18T10:09:05Z</date>
 				<key>parentGroup</key>
 				<string>4DA2C48327610872</string>
 				<key>special</key>
 				<true/>
 				<key>subgroups</key>
 				<array>
+					<string>688680410762289C</string>
 					<string>4C5F390054C93BCC</string>
 					<string>017AEDC9039B87D2</string>
 				</array>
@@ -116,9 +117,9 @@
 				<true/>
 				<key>subgroups</key>
 				<array>
-					<string>554FB588265B7475</string>
 					<string>445CF3B22B4FD27C</string>
 					<string>38078AE75EE41958</string>
+					<string>554FB588265B7475</string>
 					<string>0339970355C1C86E</string>
 				</array>
 				<key>title</key>
@@ -231,8 +232,8 @@
 				<true/>
 				<key>tasks</key>
 				<array>
-					<string>5F99094C6E2C6179</string>
 					<string>11D6837E103E3F94</string>
+					<string>5F99094C6E2C6179</string>
 				</array>
 				<key>title</key>
 				<string>Inbox</string>
@@ -240,6 +241,25 @@
 				<string>list</string>
 				<key>uidnum</key>
 				<integer>3357623794362285183</integer>
+			</dict>
+			<key>688680410762289C</key>
+			<dict>
+				<key>createdDate</key>
+				<date>2009-04-18T10:09:05Z</date>
+				<key>displayOrder</key>
+				<real>500</real>
+				<key>modifiedDate</key>
+				<date>2009-04-18T10:09:06Z</date>
+				<key>parentGroup</key>
+				<string>0339970355C1C86E</string>
+				<key>special</key>
+				<false/>
+				<key>title</key>
+				<string>Empty</string>
+				<key>type</key>
+				<string>list</string>
+				<key>uidnum</key>
+				<integer>7531848443608836252</integer>
 			</dict>
 		</dict>
 		<key>SmartFolder</key>
@@ -327,8 +347,8 @@
 				<false/>
 				<key>tasks</key>
 				<array>
-					<string>5F99094C6E2C6179</string>
 					<string>11D6837E103E3F94</string>
+					<string>5F99094C6E2C6179</string>
 				</array>
 				<key>title</key>
 				<string>pyhitlist</string>
@@ -344,14 +364,43 @@
 			<dict>
 				<key>actualTime</key>
 				<real>0.0</real>
+				<key>attributedNotes</key>
+				<data>
+				YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkk
+				YXJjaGl2ZXJYJG9iamVjdHMSAAGGoNEHCFRyb290gAFf
+				EA9OU0tleWVkQXJjaGl2ZXKvEBELDBMUIiMkJSYqMDg5
+				O0FDRlUkbnVsbNMNDg8QERJWJGNsYXNzXE5TQXR0cmli
+				dXRlc1hOU1N0cmluZ4AQgAOAAl8QE05vdGVzIGZvciB0
+				aGlzIHRhc2vTDRUWFxgdV05TLmtleXNaTlMub2JqZWN0
+				c4APpBkaGxyABIAFgAaAB6QeHx8hgAiACoAKgA1fEBBO
+				U1BhcmFncmFwaFN0eWxlXk5TT3JpZ2luYWxGb250Vk5T
+				Rm9udFdOU0NvbG9y0icNKClaTlNUYWJTdG9wc4AAgAnS
+				KywtLlgkY2xhc3Nlc1okY2xhc3NuYW1loy4iL18QF05T
+				TXV0YWJsZVBhcmFncmFwaFN0eWxlWE5TT2JqZWN01A0x
+				MjM0NTY3Vk5TU2l6ZVZOU05hbWVYTlNmRmxhZ3OADCNA
+				KAAAAAAAAIALEBBZSGVsdmV0aWNh0issOiSiJC/TDTw9
+				Pj9AXE5TQ29sb3JTcGFjZVdOU1doaXRlgA4QA0swLjMw
+				MDAwMDAxANIrLEIloiUv0issREWiRS9cTlNEaWN0aW9u
+				YXJ50issR0iiSC9fEBJOU0F0dHJpYnV0ZWRTdHJpbmcA
+				CAARABoAHwApADIANwA6AD8AQQBTAGcAbQB0AHsAiACR
+				AJMAlQCXAK0AtAC8AMcAyQDOANAA0gDUANYA2wDdAN8A
+				4QDjAPYBBQEMARQBGQEkASYBKAEtATYBQQFFAV8BaAFx
+				AXgBfwGIAYoBkwGVAZcBoQGmAakBsAG9AcUBxwHJAdUB
+				2gHdAeIB5QHyAfcB+gAAAAAAAAIBAAAAAAAAAEkAAAAA
+				AAAAAAAAAAAAAAIP
+				</data>
 				<key>createdDate</key>
 				<date>2009-04-18T06:18:33Z</date>
 				<key>displayOrder</key>
 				<real>0.0</real>
 				<key>modifiedDate</key>
-				<date>2009-04-18T07:16:52Z</date>
+				<date>2009-04-18T10:08:24Z</date>
+				<key>notes</key>
+				<string>Notes for this task</string>
 				<key>parentList</key>
 				<string>017AEDC9039B87D2</string>
+				<key>priority</key>
+				<integer>2</integer>
 				<key>recurring</key>
 				<false/>
 				<key>tags</key>
@@ -440,8 +489,8 @@
 	<key>PFLibraryVersion</key>
 	<real>0.90799999237060547</real>
 	<key>PFSaveIdentifier</key>
-	<string>27FED6B74605EE38</string>
+	<string>D594A98548A03693</string>
 	<key>PFSavedDate</key>
-	<date>2009-04-18T07:19:34Z</date>
+	<date>2009-04-18T10:09:16Z</date>
 </dict>
 </plist>

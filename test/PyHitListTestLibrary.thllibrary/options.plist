@@ -35,12 +35,12 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErCS9wcmlvcml0eYY=
 		</data>
-		<string>25</string>
+		<string>35</string>
 		<data>
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErBHRhc2uG
 		</data>
-		<string>575</string>
+		<string>664</string>
 		<data>
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErBi9zdGFydIY=
@@ -61,6 +61,10 @@
 	<array>
 		<data>
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErBGxpc3SG
+		</data>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErCS9lc3RpbWF0ZYY=
 		</data>
 	</array>
@@ -73,7 +77,7 @@
 	YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkkYXJjaGl2ZXJYJG9iamVjdHMS
 	AAGGoNEHCFRyb290gAFfEA9OU0tleWVkQXJjaGl2ZXKkCwwSE1UkbnVsbNINDg8QViRj
 	bGFzc1pOUy5vYmplY3RzgAOhEYACXxA6eC1jb3JlZGF0YTovLzI4NDdCQkE4LTRBRjMt
-	NENDNi1BNEExLTJGNDI2MzkzOEVBMi9MaXN0L3AxMtIUFRYXWCRjbGFzc2VzWiRjbGFz
+	NENDNi1BNEExLTJGNDI2MzkzOEVBMi9MaXN0L3AxNdIUFRYXWCRjbGFzc2VzWiRjbGFz
 	c25hbWWjFxgZXk5TTXV0YWJsZUFycmF5V05TQXJyYXlYTlNPYmplY3QIERofKTI3Oj9B
 	U1heY2p1d3l7uL3G0dXk7AAAAAAAAAEBAAAAAAAAABoAAAAAAAAAAAAAAAAAAAD1
 	</data>
@@ -103,7 +107,7 @@
 	</array>
 	<key>PFTabControl tabs objects</key>
 	<array>
-		<string>0393308371A7C49A</string>
+		<string>688680410762289C</string>
 	</array>
 	<key>PFTabControl tabs selected index</key>
 	<integer>0</integer>
@@ -111,17 +115,15 @@
 	<array>
 		<dict>
 			<key>tabType</key>
-			<string>tag</string>
+			<string>list</string>
 			<key>title</key>
-			<string>spaced tag</string>
+			<string>Empty</string>
 			<key>viewOptions</key>
 			<dict>
 				<key>displayMode</key>
 				<integer>0</integer>
 				<key>expandedState</key>
 				<array/>
-				<key>groupingAttribute</key>
-				<string>topList</string>
 				<key>groupingLimit</key>
 				<integer>0</integer>
 				<key>hideArchivedTasks</key>
@@ -139,19 +141,14 @@
 				<data>
 				YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkk
 				YXJjaGl2ZXJYJG9iamVjdHMSAAGGoNEHCFRyb290gAFf
-				EA9OU0tleWVkQXJjaGl2ZXKmCwwSGBkfVSRudWxs0g0O
-				DxBWJGNsYXNzWk5TLm9iamVjdHOABaERgALTDRMUFRYX
-				V05TLmJhc2VbTlMucmVsYXRpdmWABIAAgANfEDl4LWNv
-				cmVkYXRhOi8vMjg0N0JCQTgtNEFGMy00Q0M2LUE0QTEt
-				MkY0MjYzOTM4RUEyL1Rhc2svcDPSGhscHVgkY2xhc3Nl
-				c1okY2xhc3NuYW1loh0eVU5TVVJMWE5TT2JqZWN00hob
-				ICGiIR5XTlNBcnJheQAIABEAGgAfACkAMgA3ADoAPwBB
-				AFMAWgBgAGUAbAB3AHkAewB9AIQAjACYAJoAnACeANoA
-				3wDoAPMA9gD8AQUBCgENAAAAAAAAAgEAAAAAAAAAIgAA
-				AAAAAAAAAAAAAAAAARU=
+				EA9OU0tleWVkQXJjaGl2ZXKjCwwRVSRudWxs0g0ODxBW
+				JGNsYXNzWk5TLm9iamVjdHOAAqDSEhMUFVgkY2xhc3Nl
+				c1okY2xhc3NuYW1lohUWV05TQXJyYXlYTlNPYmplY3QI
+				ERofKTI3Oj9BU1ddYml0dnd8hZCTmwAAAAAAAAEBAAAA
+				AAAAABcAAAAAAAAAAAAAAAAAAACk
 				</data>
 				<key>title</key>
-				<string>spaced tag</string>
+				<string>Empty</string>
 			</dict>
 		</dict>
 	</array>
@@ -281,7 +278,7 @@
 			<key>scrollPositionState</key>
 			<dict>
 				<key>scrollToRow</key>
-				<integer>-1</integer>
+				<integer>0</integer>
 				<key>scrollToRowOffset</key>
 				<real>0.0</real>
 			</dict>
@@ -365,6 +362,37 @@
 			<key>title</key>
 			<string>On Hold</string>
 		</dict>
+		<key>688680410762289C</key>
+		<dict>
+			<key>displayMode</key>
+			<integer>0</integer>
+			<key>expandedState</key>
+			<array/>
+			<key>groupingLimit</key>
+			<integer>0</integer>
+			<key>hideArchivedTasks</key>
+			<true/>
+			<key>numberOfCards</key>
+			<integer>0</integer>
+			<key>scrollPositionState</key>
+			<dict>
+				<key>scrollToRow</key>
+				<integer>0</integer>
+				<key>scrollToRowOffset</key>
+				<real>0.0</real>
+			</dict>
+			<key>selectionState</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkkYXJjaGl2
+			ZXJYJG9iamVjdHMSAAGGoNEHCFRyb290gAFfEA9OU0tleWVkQXJj
+			aGl2ZXKjCwwRVSRudWxs0g0ODxBWJGNsYXNzWk5TLm9iamVjdHOA
+			AqDSEhMUFVgkY2xhc3Nlc1okY2xhc3NuYW1lohUWV05TQXJyYXlY
+			TlNPYmplY3QIERofKTI3Oj9BU1ddYml0dnd8hZCTmwAAAAAAAAEB
+			AAAAAAAAABcAAAAAAAAAAAAAAAAAAACk
+			</data>
+			<key>title</key>
+			<string>Empty</string>
+		</dict>
 		<key>7689D8F04F96249F</key>
 		<dict>
 			<key>displayMode</key>
@@ -400,8 +428,8 @@
 		</dict>
 	</dict>
 	<key>lastSmartFolderReloadDate</key>
-	<date>2009-04-18T07:19:51Z</date>
+	<date>2009-04-18T10:20:17Z</date>
 	<key>sourceListMode</key>
-	<integer>1</integer>
+	<integer>0</integer>
 </dict>
 </plist>
