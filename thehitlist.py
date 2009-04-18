@@ -74,8 +74,8 @@ class TheHitList(object):
     today    = List(app.today_list)
     upcoming = List(app.upcoming_list)
     
-    groups = Folder(app.folders_group)
-    tags   = TagFolder(app.tags_group)
+    folders = Folder(app.folders_group)
+    tags    = TagFolder(app.tags_group)
 
 
 class TagError(Exception):
