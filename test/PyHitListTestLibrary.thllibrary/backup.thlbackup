@@ -24,8 +24,8 @@
 				<true/>
 				<key>subgroups</key>
 				<array>
-					<string>017AEDC9039B87D2</string>
 					<string>4C5F390054C93BCC</string>
+					<string>017AEDC9039B87D2</string>
 				</array>
 				<key>title</key>
 				<string>Folders</string>
@@ -116,10 +116,10 @@
 				<true/>
 				<key>subgroups</key>
 				<array>
-					<string>0339970355C1C86E</string>
-					<string>38078AE75EE41958</string>
-					<string>445CF3B22B4FD27C</string>
 					<string>554FB588265B7475</string>
+					<string>445CF3B22B4FD27C</string>
+					<string>38078AE75EE41958</string>
+					<string>0339970355C1C86E</string>
 				</array>
 				<key>title</key>
 				<string>Root Group</string>
@@ -142,8 +142,8 @@
 				<true/>
 				<key>subgroups</key>
 				<array>
-					<string>7689D8F04F96249F</string>
 					<string>0393308371A7C49A</string>
+					<string>7689D8F04F96249F</string>
 				</array>
 				<key>title</key>
 				<string>Tags</string>
@@ -231,8 +231,8 @@
 				<true/>
 				<key>tasks</key>
 				<array>
-					<string>11D6837E103E3F94</string>
 					<string>5F99094C6E2C6179</string>
+					<string>11D6837E103E3F94</string>
 				</array>
 				<key>title</key>
 				<string>Inbox</string>
@@ -303,8 +303,8 @@
 				<false/>
 				<key>tasks</key>
 				<array>
-					<string>5F99094C6E2C6179</string>
 					<string>02C47AA430041DEE</string>
+					<string>5F99094C6E2C6179</string>
 				</array>
 				<key>title</key>
 				<string>spaced tag</string>
@@ -320,15 +320,15 @@
 				<key>displayOrder</key>
 				<real>0.0</real>
 				<key>modifiedDate</key>
-				<date>2009-04-18T06:17:54Z</date>
+				<date>2009-04-18T07:19:30Z</date>
 				<key>parentGroup</key>
 				<string>554FB588265B7475</string>
 				<key>special</key>
 				<false/>
 				<key>tasks</key>
 				<array>
-					<string>11D6837E103E3F94</string>
 					<string>5F99094C6E2C6179</string>
+					<string>11D6837E103E3F94</string>
 				</array>
 				<key>title</key>
 				<string>pyhitlist</string>
@@ -349,7 +349,7 @@
 				<key>displayOrder</key>
 				<real>0.0</real>
 				<key>modifiedDate</key>
-				<date>2009-04-18T06:18:43Z</date>
+				<date>2009-04-18T07:16:52Z</date>
 				<key>parentList</key>
 				<string>017AEDC9039B87D2</string>
 				<key>recurring</key>
@@ -359,7 +359,7 @@
 					<string>0393308371A7C49A</string>
 				</array>
 				<key>title</key>
-				<string>Uno task 1 /spaced tag/</string>
+				<string>Uno Task 1 /spaced tag/</string>
 				<key>uidnum</key>
 				<integer>199419129109945838</integer>
 			</dict>
@@ -418,17 +418,17 @@
 				<key>createdDate</key>
 				<date>2009-04-18T06:17:11Z</date>
 				<key>displayOrder</key>
-				<real>0.0</real>
+				<real>-1000</real>
 				<key>modifiedDate</key>
-				<date>2009-04-18T06:17:45Z</date>
+				<date>2009-04-18T07:19:30Z</date>
 				<key>parentList</key>
 				<string>2E98AD0D305CFC7F</string>
 				<key>recurring</key>
 				<false/>
 				<key>tags</key>
 				<array>
-					<string>7689D8F04F96249F</string>
 					<string>0393308371A7C49A</string>
+					<string>7689D8F04F96249F</string>
 				</array>
 				<key>title</key>
 				<string>Inbox Task 1 /pyhitlist /spaced tag/</string>
@@ -440,8 +440,8 @@
 	<key>PFLibraryVersion</key>
 	<real>0.90799999237060547</real>
 	<key>PFSaveIdentifier</key>
-	<string>279CF1AB4E013C2D</string>
+	<string>27FED6B74605EE38</string>
 	<key>PFSavedDate</key>
-	<date>2009-04-18T06:18:53Z</date>
+	<date>2009-04-18T07:19:34Z</date>
 </dict>
 </plist>

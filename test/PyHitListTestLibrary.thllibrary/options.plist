@@ -35,34 +35,30 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErCS9wcmlvcml0eYY=
 		</data>
-		<string>35</string>
+		<string>25</string>
 		<data>
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErBHRhc2uG
 		</data>
-		<string>628</string>
+		<string>575</string>
 		<data>
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErBi9zdGFydIY=
 		</data>
-		<string>70</string>
+		<string>71</string>
 		<data>
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErBC9kdWWG
 		</data>
-		<string>70</string>
+		<string>71</string>
 		<data>
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErCS9lc3RpbWF0ZYY=
 		</data>
-		<string>56</string>
+		<string>57</string>
 	</array>
 	<key>NSTableView Hidden Columns tasksOutlineView</key>
 	<array>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErBGxpc3SG
-		</data>
 		<data>
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErCS9lc3RpbWF0ZYY=
@@ -81,6 +77,15 @@
 	c25hbWWjFxgZXk5TTXV0YWJsZUFycmF5V05TQXJyYXlYTlNPYmplY3QIERofKTI3Oj9B
 	U1heY2p1d3l7uL3G0dXk7AAAAAAAAAEBAAAAAAAAABoAAAAAAAAAAAAAAAAAAAD1
 	</data>
+	<key>PFExtendedOutlineView tags selection</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkkYXJjaGl2ZXJYJG9iamVjdHMS
+	AAGGoNEHCFRyb290gAFfEA9OU0tleWVkQXJjaGl2ZXKkCwwSE1UkbnVsbNINDg8QViRj
+	bGFzc1pOUy5vYmplY3RzgAOhEYACXxA5eC1jb3JlZGF0YTovLzI4NDdCQkE4LTRBRjMt
+	NENDNi1BNEExLTJGNDI2MzkzOEVBMi9UYWcvcDE00hQVFhdYJGNsYXNzZXNaJGNsYXNz
+	bmFtZaMXGBleTlNNdXRhYmxlQXJyYXlXTlNBcnJheVhOU09iamVjdAgRGh8pMjc6P0FT
+	WF5janV3eXu3vMXQ1OPrAAAAAAAAAQEAAAAAAAAAGgAAAAAAAAAAAAAAAAAAAPQ=
+	</data>
 	<key>PFSplitView Subview Lengths sourceListBottom</key>
 	<array>
 		<real>587</real>
@@ -98,7 +103,7 @@
 	</array>
 	<key>PFTabControl tabs objects</key>
 	<array>
-		<string>017AEDC9039B87D2</string>
+		<string>0393308371A7C49A</string>
 	</array>
 	<key>PFTabControl tabs selected index</key>
 	<integer>0</integer>
@@ -106,15 +111,17 @@
 	<array>
 		<dict>
 			<key>tabType</key>
-			<string>list</string>
+			<string>tag</string>
 			<key>title</key>
-			<string>Uno</string>
+			<string>spaced tag</string>
 			<key>viewOptions</key>
 			<dict>
 				<key>displayMode</key>
 				<integer>0</integer>
 				<key>expandedState</key>
 				<array/>
+				<key>groupingAttribute</key>
+				<string>topList</string>
 				<key>groupingLimit</key>
 				<integer>0</integer>
 				<key>hideArchivedTasks</key>
@@ -136,7 +143,7 @@
 				DxBWJGNsYXNzWk5TLm9iamVjdHOABaERgALTDRMUFRYX
 				V05TLmJhc2VbTlMucmVsYXRpdmWABIAAgANfEDl4LWNv
 				cmVkYXRhOi8vMjg0N0JCQTgtNEFGMy00Q0M2LUE0QTEt
-				MkY0MjYzOTM4RUEyL1Rhc2svcDbSGhscHVgkY2xhc3Nl
+				MkY0MjYzOTM4RUEyL1Rhc2svcDPSGhscHVgkY2xhc3Nl
 				c1okY2xhc3NuYW1loh0eVU5TVVJMWE5TT2JqZWN00hob
 				ICGiIR5XTlNBcnJheQAIABEAGgAfACkAMgA3ADoAPwBB
 				AFMAWgBgAGUAbAB3AHkAewB9AIQAjACYAJoAnACeANoA
@@ -144,7 +151,7 @@
 				AAAAAAAAAAAAAAAAARU=
 				</data>
 				<key>title</key>
-				<string>Uno</string>
+				<string>spaced tag</string>
 			</dict>
 		</dict>
 	</array>
@@ -184,6 +191,43 @@
 			</data>
 			<key>title</key>
 			<string>Uno</string>
+		</dict>
+		<key>0393308371A7C49A</key>
+		<dict>
+			<key>displayMode</key>
+			<integer>0</integer>
+			<key>expandedState</key>
+			<array/>
+			<key>groupingAttribute</key>
+			<string>topList</string>
+			<key>groupingLimit</key>
+			<integer>0</integer>
+			<key>hideArchivedTasks</key>
+			<true/>
+			<key>numberOfCards</key>
+			<integer>0</integer>
+			<key>scrollPositionState</key>
+			<dict>
+				<key>scrollToRow</key>
+				<integer>0</integer>
+				<key>scrollToRowOffset</key>
+				<real>0.0</real>
+			</dict>
+			<key>selectionState</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkkYXJjaGl2
+			ZXJYJG9iamVjdHMSAAGGoNEHCFRyb290gAFfEA9OU0tleWVkQXJj
+			aGl2ZXKmCwwSGBkfVSRudWxs0g0ODxBWJGNsYXNzWk5TLm9iamVj
+			dHOABaERgALTDRMUFRYXV05TLmJhc2VbTlMucmVsYXRpdmWABIAA
+			gANfEDl4LWNvcmVkYXRhOi8vMjg0N0JCQTgtNEFGMy00Q0M2LUE0
+			QTEtMkY0MjYzOTM4RUEyL1Rhc2svcDPSGhscHVgkY2xhc3Nlc1ok
+			Y2xhc3NuYW1loh0eVU5TVVJMWE5TT2JqZWN00hobICGiIR5XTlNB
+			cnJheQAIABEAGgAfACkAMgA3ADoAPwBBAFMAWgBgAGUAbAB3AHkA
+			ewB9AIQAjACYAJoAnACeANoA3wDoAPMA9gD8AQUBCgENAAAAAAAA
+			AgEAAAAAAAAAIgAAAAAAAAAAAAAAAAAAARU=
+			</data>
+			<key>title</key>
+			<string>spaced tag</string>
 		</dict>
 		<key>0652FD1025ABFB4D</key>
 		<dict>
@@ -321,10 +365,43 @@
 			<key>title</key>
 			<string>On Hold</string>
 		</dict>
+		<key>7689D8F04F96249F</key>
+		<dict>
+			<key>displayMode</key>
+			<integer>0</integer>
+			<key>expandedState</key>
+			<array/>
+			<key>groupingAttribute</key>
+			<string>topList</string>
+			<key>groupingLimit</key>
+			<integer>0</integer>
+			<key>hideArchivedTasks</key>
+			<true/>
+			<key>numberOfCards</key>
+			<integer>0</integer>
+			<key>scrollPositionState</key>
+			<dict>
+				<key>scrollToRow</key>
+				<integer>0</integer>
+				<key>scrollToRowOffset</key>
+				<real>0.0</real>
+			</dict>
+			<key>selectionState</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkkYXJjaGl2
+			ZXJYJG9iamVjdHMSAAGGoNEHCFRyb290gAFfEA9OU0tleWVkQXJj
+			aGl2ZXKjCwwRVSRudWxs0g0ODxBWJGNsYXNzWk5TLm9iamVjdHOA
+			AqDSEhMUFVgkY2xhc3Nlc1okY2xhc3NuYW1lohUWV05TQXJyYXlY
+			TlNPYmplY3QIERofKTI3Oj9BU1ddYml0dnd8hZCTmwAAAAAAAAEB
+			AAAAAAAAABcAAAAAAAAAAAAAAAAAAACk
+			</data>
+			<key>title</key>
+			<string>pyhitlist</string>
+		</dict>
 	</dict>
 	<key>lastSmartFolderReloadDate</key>
-	<date>2009-04-18T06:16:49Z</date>
+	<date>2009-04-18T07:19:51Z</date>
 	<key>sourceListMode</key>
-	<integer>0</integer>
+	<integer>1</integer>
 </dict>
 </plist>
