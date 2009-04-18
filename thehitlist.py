@@ -56,7 +56,7 @@ class List(Group):
     
     @property
     def tasks(self):
-        return [Task(t) for t in self.osagrp.tasks.get()]
+        return [Task(t) for t in self.osagrp.tasks[appscript.its.archived != True].get()]
 
 
 class Tag(Group):
@@ -65,7 +65,7 @@ class Tag(Group):
     
     @property
     def tasks(self):
-        return [Task(t) for t in self.osagrp.tasks.get()]
+        return [Task(t) for t in self.osagrp.tasks[appscript.its.archived != True].get()]
 
 
 class TheHitList(object):

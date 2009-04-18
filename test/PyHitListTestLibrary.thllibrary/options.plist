@@ -76,10 +76,10 @@
 	<data>
 	YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkkYXJjaGl2ZXJYJG9iamVjdHMS
 	AAGGoNEHCFRyb290gAFfEA9OU0tleWVkQXJjaGl2ZXKkCwwSE1UkbnVsbNINDg8QViRj
-	bGFzc1pOUy5vYmplY3RzgAOhEYACXxA6eC1jb3JlZGF0YTovLzI4NDdCQkE4LTRBRjMt
-	NENDNi1BNEExLTJGNDI2MzkzOEVBMi9MaXN0L3AxNdIUFRYXWCRjbGFzc2VzWiRjbGFz
-	c25hbWWjFxgZXk5TTXV0YWJsZUFycmF5V05TQXJyYXlYTlNPYmplY3QIERofKTI3Oj9B
-	U1heY2p1d3l7uL3G0dXk7AAAAAAAAAEBAAAAAAAAABoAAAAAAAAAAAAAAAAAAAD1
+	bGFzc1pOUy5vYmplY3RzgAOhEYACXxA5eC1jb3JlZGF0YTovLzI4NDdCQkE4LTRBRjMt
+	NENDNi1BNEExLTJGNDI2MzkzOEVBMi9MaXN0L3A30hQVFhdYJGNsYXNzZXNaJGNsYXNz
+	bmFtZaMXGBleTlNNdXRhYmxlQXJyYXlXTlNBcnJheVhOU09iamVjdAgRGh8pMjc6P0FT
+	WF5janV3eXu3vMXQ1OPrAAAAAAAAAQEAAAAAAAAAGgAAAAAAAAAAAAAAAAAAAPQ=
 	</data>
 	<key>PFExtendedOutlineView tags selection</key>
 	<data>
@@ -107,7 +107,7 @@
 	</array>
 	<key>PFTabControl tabs objects</key>
 	<array>
-		<string>688680410762289C</string>
+		<string>2E98AD0D305CFC7F</string>
 	</array>
 	<key>PFTabControl tabs selected index</key>
 	<integer>0</integer>
@@ -117,7 +117,7 @@
 			<key>tabType</key>
 			<string>list</string>
 			<key>title</key>
-			<string>Empty</string>
+			<string>Inbox</string>
 			<key>viewOptions</key>
 			<dict>
 				<key>displayMode</key>
@@ -148,7 +148,7 @@
 				AAAAABcAAAAAAAAAAAAAAAAAAACk
 				</data>
 				<key>title</key>
-				<string>Empty</string>
+				<string>Inbox</string>
 			</dict>
 		</dict>
 	</array>
@@ -317,14 +317,10 @@
 			<data>
 			YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkkYXJjaGl2
 			ZXJYJG9iamVjdHMSAAGGoNEHCFRyb290gAFfEA9OU0tleWVkQXJj
-			aGl2ZXKmCwwSGBkfVSRudWxs0g0ODxBWJGNsYXNzWk5TLm9iamVj
-			dHOABaERgALTDRMUFRYXV05TLmJhc2VbTlMucmVsYXRpdmWABIAA
-			gANfEDl4LWNvcmVkYXRhOi8vMjg0N0JCQTgtNEFGMy00Q0M2LUE0
-			QTEtMkY0MjYzOTM4RUEyL1Rhc2svcDTSGhscHVgkY2xhc3Nlc1ok
-			Y2xhc3NuYW1loh0eVU5TVVJMWE5TT2JqZWN00hobICGiIR5XTlNB
-			cnJheQAIABEAGgAfACkAMgA3ADoAPwBBAFMAWgBgAGUAbAB3AHkA
-			ewB9AIQAjACYAJoAnACeANoA3wDoAPMA9gD8AQUBCgENAAAAAAAA
-			AgEAAAAAAAAAIgAAAAAAAAAAAAAAAAAAARU=
+			aGl2ZXKjCwwRVSRudWxs0g0ODxBWJGNsYXNzWk5TLm9iamVjdHOA
+			AqDSEhMUFVgkY2xhc3Nlc1okY2xhc3NuYW1lohUWV05TQXJyYXlY
+			TlNPYmplY3QIERofKTI3Oj9BU1ddYml0dnd8hZCTmwAAAAAAAAEB
+			AAAAAAAAABcAAAAAAAAAAAAAAAAAAACk
 			</data>
 			<key>title</key>
 			<string>Inbox</string>
@@ -428,7 +424,7 @@
 		</dict>
 	</dict>
 	<key>lastSmartFolderReloadDate</key>
-	<date>2009-04-18T10:20:17Z</date>
+	<date>2009-04-18T11:24:03Z</date>
 	<key>sourceListMode</key>
 	<integer>0</integer>
 </dict>
