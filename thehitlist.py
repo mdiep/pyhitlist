@@ -55,6 +55,10 @@ class List(Group):
         return super(List,self).name
     
     @property
+    def archived(self):
+        return [Task(t) for t in self.osagrp.tasks[appscript.its.archived == True].get()]
+    
+    @property
     def tasks(self):
         return [Task(t) for t in self.osagrp.tasks[appscript.its.archived != True].get()]
 
@@ -62,6 +66,10 @@ class List(Group):
 class Tag(Group):
     def __iter__(self):
         return iter(self.tasks)
+    
+    @property
+    def archived(self):
+        return [Task(t) for t in self.osagrp.tasks[appscript.its.archived == True].get()]
     
     @property
     def tasks(self):

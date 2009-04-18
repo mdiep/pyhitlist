@@ -41,6 +41,11 @@ class TagTestCase(HitListTest):
         inboxtask1.untag('spaced tag')
         self.assertEquals(inboxtask1.title, 'Inbox Task 1')
         self.assertRaises(TagError, inboxtask1.untag, 'pyhitlist')
+    
+    def test_06_archived_tasks_of_tags(self):
+        tags = TheHitList.tags
+        self.assertEquals(len(tags['pyhitlist'].archived), 1)
+        self.assertEquals(len(tags['spaced tag'].archived), 0)
 
 if __name__ == '__main__':
     unittest.main()
