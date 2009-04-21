@@ -137,6 +137,12 @@ class Task(object):
         self.osatask.priority.set(value)
     priority = property(__priority, __setpriority)
     
+    def __completed(self):
+        return self.osatask.completed.get()
+    def __setcompleted(self, value):
+        self.osatask.completed.set(value)
+    completed = property(__completed, __setcompleted)
+    
     def istagged(self, name):
         for tag in self.tags:
             if tag.name == name:
