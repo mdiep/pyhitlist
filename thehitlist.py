@@ -143,6 +143,10 @@ class Task(object):
         self.osatask.completed.set(value)
     completed = property(__completed, __setcompleted)
     
+    @property
+    def tasks(self):
+        return [Task(t) for t in self.osatask.tasks[appscript.its.archived != True].get()]
+    
     def istagged(self, name):
         for tag in self.tags:
             if tag.name == name:

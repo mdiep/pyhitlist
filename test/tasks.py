@@ -42,6 +42,15 @@ class TaskTestCase(HitListTest):
         self.assertEqual(uno.completed, False)
         uno.completed = True
         self.assertEqual(uno.completed, True)
+    
+    def test_05_subtasks(self):
+        uno = TheHitList.folders['Uno'].tasks[0]
+        self.assertEqual(len(uno.tasks), 0)
+        dos = TheHitList.folders['Dos'].tasks[0]
+        self.assertEqual(len(dos.tasks), 2)
+        subtask = dos.tasks[0]
+        self.assertEqual(subtask.title, 'Child Task 1')
+
 
 if __name__ == '__main__':
     unittest.main()

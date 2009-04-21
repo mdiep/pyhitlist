@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>PFApplicationShortVersion</key>
-	<string>0.9.3.7beta</string>
+	<string>0.9.3.9beta</string>
 	<key>PFApplicationVersion</key>
-	<string>116</string>
+	<string>120</string>
 	<key>PFEntities</key>
 	<dict>
 		<key>Folder</key>
@@ -17,16 +17,17 @@
 				<key>displayOrder</key>
 				<real>2000</real>
 				<key>modifiedDate</key>
-				<date>2009-04-18T10:09:05Z</date>
+				<date>2009-04-21T03:52:15Z</date>
 				<key>parentGroup</key>
 				<string>4DA2C48327610872</string>
 				<key>special</key>
 				<true/>
 				<key>subgroups</key>
 				<array>
-					<string>688680410762289C</string>
 					<string>4C5F390054C93BCC</string>
 					<string>017AEDC9039B87D2</string>
+					<string>7A245D13449E387D</string>
+					<string>688680410762289C</string>
 				</array>
 				<key>title</key>
 				<string>Folders</string>
@@ -117,10 +118,10 @@
 				<true/>
 				<key>subgroups</key>
 				<array>
+					<string>38078AE75EE41958</string>
 					<string>445CF3B22B4FD27C</string>
 					<string>554FB588265B7475</string>
 					<string>0339970355C1C86E</string>
-					<string>38078AE75EE41958</string>
 				</array>
 				<key>title</key>
 				<string>Root Group</string>
@@ -262,6 +263,29 @@
 				<key>uidnum</key>
 				<integer>7531848443608836252</integer>
 			</dict>
+			<key>7A245D13449E387D</key>
+			<dict>
+				<key>createdDate</key>
+				<date>2009-04-21T03:52:12Z</date>
+				<key>displayOrder</key>
+				<real>250</real>
+				<key>modifiedDate</key>
+				<date>2009-04-21T03:52:19Z</date>
+				<key>parentGroup</key>
+				<string>0339970355C1C86E</string>
+				<key>special</key>
+				<false/>
+				<key>tasks</key>
+				<array>
+					<string>6281A5E575E27DF9</string>
+				</array>
+				<key>title</key>
+				<string>Dos</string>
+				<key>type</key>
+				<string>list</string>
+				<key>uidnum</key>
+				<integer>8801261909125773437</integer>
+			</dict>
 		</dict>
 		<key>SmartFolder</key>
 		<dict>
@@ -272,7 +296,7 @@
 				<key>displayOrder</key>
 				<real>0.0</real>
 				<key>modifiedDate</key>
-				<date>2009-04-18T11:20:20Z</date>
+				<date>2009-04-21T03:55:16Z</date>
 				<key>parentGroup</key>
 				<string>38078AE75EE41958</string>
 				<key>special</key>
@@ -280,7 +304,7 @@
 				<key>tasks</key>
 				<array>
 					<string>11D6837E103E3F94</string>
-					<string>0FC6995277290B79</string>
+					<string>45F7C05269D41B8A</string>
 				</array>
 				<key>title</key>
 				<string>Today</string>
@@ -433,10 +457,6 @@
 				<string>2E98AD0D305CFC7F</string>
 				<key>recurring</key>
 				<false/>
-				<key>smartFolders</key>
-				<array>
-					<string>12DDC5E425D568C9</string>
-				</array>
 				<key>tags</key>
 				<array>
 					<string>7689D8F04F96249F</string>
@@ -475,6 +495,25 @@
 				<key>uidnum</key>
 				<integer>1285359321122488212</integer>
 			</dict>
+			<key>2D1BD1676A0E1314</key>
+			<dict>
+				<key>actualTime</key>
+				<real>0.0</real>
+				<key>createdDate</key>
+				<date>2009-04-21T03:52:34Z</date>
+				<key>displayOrder</key>
+				<real>1000</real>
+				<key>modifiedDate</key>
+				<date>2009-04-21T03:52:36Z</date>
+				<key>parentTask</key>
+				<string>6281A5E575E27DF9</string>
+				<key>recurring</key>
+				<false/>
+				<key>title</key>
+				<string>Child Task 2</string>
+				<key>uidnum</key>
+				<integer>3250421798169088788</integer>
+			</dict>
 			<key>32896FDF46F9F241</key>
 			<dict>
 				<key>actualTime</key>
@@ -493,6 +532,52 @@
 				<string>Someday Task 1</string>
 				<key>uidnum</key>
 				<integer>3641564778464932417</integer>
+			</dict>
+			<key>45F7C05269D41B8A</key>
+			<dict>
+				<key>actualTime</key>
+				<real>0.0</real>
+				<key>archivedDate</key>
+				<date>2009-04-21T03:55:17Z</date>
+				<key>completedDate</key>
+				<date>2009-04-21T03:55:15Z</date>
+				<key>createdDate</key>
+				<date>2009-04-21T03:55:12Z</date>
+				<key>displayOrder</key>
+				<real>-1000</real>
+				<key>modifiedDate</key>
+				<date>2009-04-21T03:55:17Z</date>
+				<key>parentTask</key>
+				<string>6281A5E575E27DF9</string>
+				<key>recurring</key>
+				<false/>
+				<key>smartFolders</key>
+				<array>
+					<string>12DDC5E425D568C9</string>
+				</array>
+				<key>title</key>
+				<string>Child Task 0</string>
+				<key>uidnum</key>
+				<integer>5041709768059919242</integer>
+			</dict>
+			<key>489767862EE83DE8</key>
+			<dict>
+				<key>actualTime</key>
+				<real>0.0</real>
+				<key>createdDate</key>
+				<date>2009-04-21T03:52:25Z</date>
+				<key>displayOrder</key>
+				<real>0.0</real>
+				<key>modifiedDate</key>
+				<date>2009-04-21T03:52:33Z</date>
+				<key>parentTask</key>
+				<string>6281A5E575E27DF9</string>
+				<key>recurring</key>
+				<false/>
+				<key>title</key>
+				<string>Child Task 1</string>
+				<key>uidnum</key>
+				<integer>5230763318224371176</integer>
 			</dict>
 			<key>5F99094C6E2C6179</key>
 			<dict>
@@ -518,13 +603,38 @@
 				<key>uidnum</key>
 				<integer>6888547328910451065</integer>
 			</dict>
+			<key>6281A5E575E27DF9</key>
+			<dict>
+				<key>actualTime</key>
+				<real>0.0</real>
+				<key>createdDate</key>
+				<date>2009-04-21T03:52:19Z</date>
+				<key>displayOrder</key>
+				<real>0.0</real>
+				<key>modifiedDate</key>
+				<date>2009-04-21T03:55:12Z</date>
+				<key>parentList</key>
+				<string>7A245D13449E387D</string>
+				<key>recurring</key>
+				<false/>
+				<key>subtasks</key>
+				<array>
+					<string>2D1BD1676A0E1314</string>
+					<string>45F7C05269D41B8A</string>
+					<string>489767862EE83DE8</string>
+				</array>
+				<key>title</key>
+				<string>Parent Task</string>
+				<key>uidnum</key>
+				<integer>7098136892656483833</integer>
+			</dict>
 		</dict>
 	</dict>
 	<key>PFLibraryVersion</key>
 	<real>0.90799999237060547</real>
 	<key>PFSaveIdentifier</key>
-	<string>EBCED885404CE9B7</string>
+	<string>C3DAE79440352799</string>
 	<key>PFSavedDate</key>
-	<date>2009-04-18T11:22:10Z</date>
+	<date>2009-04-21T03:55:27Z</date>
 </dict>
 </plist>

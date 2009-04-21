@@ -5,9 +5,9 @@
 	<key>NSOutlineView Items folders</key>
 	<array>
 		<string>x-coredata://2847BBA8-4AF3-4CC6-A4A1-2F4263938EA2/Folder/p1</string>
-		<string>x-coredata://2847BBA8-4AF3-4CC6-A4A1-2F4263938EA2/Folder/p2</string>
-		<string>x-coredata://2847BBA8-4AF3-4CC6-A4A1-2F4263938EA2/Folder/p3</string>
 		<string>x-coredata://2847BBA8-4AF3-4CC6-A4A1-2F4263938EA2/Folder/p4</string>
+		<string>x-coredata://2847BBA8-4AF3-4CC6-A4A1-2F4263938EA2/Folder/p3</string>
+		<string>x-coredata://2847BBA8-4AF3-4CC6-A4A1-2F4263938EA2/Folder/p2</string>
 	</array>
 	<key>NSSplitView Subview Frames sourceListBottom</key>
 	<array>
@@ -76,10 +76,10 @@
 	<data>
 	YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkkYXJjaGl2ZXJYJG9iamVjdHMS
 	AAGGoNEHCFRyb290gAFfEA9OU0tleWVkQXJjaGl2ZXKkCwwSE1UkbnVsbNINDg8QViRj
-	bGFzc1pOUy5vYmplY3RzgAOhEYACXxA5eC1jb3JlZGF0YTovLzI4NDdCQkE4LTRBRjMt
-	NENDNi1BNEExLTJGNDI2MzkzOEVBMi9MaXN0L3A30hQVFhdYJGNsYXNzZXNaJGNsYXNz
-	bmFtZaMXGBleTlNNdXRhYmxlQXJyYXlXTlNBcnJheVhOU09iamVjdAgRGh8pMjc6P0FT
-	WF5janV3eXu3vMXQ1OPrAAAAAAAAAQEAAAAAAAAAGgAAAAAAAAAAAAAAAAAAAPQ=
+	bGFzc1pOUy5vYmplY3RzgAOhEYACXxA6eC1jb3JlZGF0YTovLzI4NDdCQkE4LTRBRjMt
+	NENDNi1BNEExLTJGNDI2MzkzOEVBMi9MaXN0L3AxNtIUFRYXWCRjbGFzc2VzWiRjbGFz
+	c25hbWWjFxgZXk5TTXV0YWJsZUFycmF5V05TQXJyYXlYTlNPYmplY3QIERofKTI3Oj9B
+	U1heY2p1d3l7uL3G0dXk7AAAAAAAAAEBAAAAAAAAABoAAAAAAAAAAAAAAAAAAAD1
 	</data>
 	<key>PFExtendedOutlineView tags selection</key>
 	<data>
@@ -107,7 +107,7 @@
 	</array>
 	<key>PFTabControl tabs objects</key>
 	<array>
-		<string>2E98AD0D305CFC7F</string>
+		<string>7A245D13449E387D</string>
 	</array>
 	<key>PFTabControl tabs selected index</key>
 	<integer>0</integer>
@@ -117,13 +117,15 @@
 			<key>tabType</key>
 			<string>list</string>
 			<key>title</key>
-			<string>Inbox</string>
+			<string>Dos</string>
 			<key>viewOptions</key>
 			<dict>
 				<key>displayMode</key>
 				<integer>0</integer>
 				<key>expandedState</key>
-				<array/>
+				<array>
+					<string>x-coredata://2847BBA8-4AF3-4CC6-A4A1-2F4263938EA2/Task/p11</string>
+				</array>
 				<key>groupingLimit</key>
 				<integer>0</integer>
 				<key>hideArchivedTasks</key>
@@ -148,7 +150,7 @@
 				AAAAABcAAAAAAAAAAAAAAAAAAACk
 				</data>
 				<key>title</key>
-				<string>Inbox</string>
+				<string>Dos</string>
 			</dict>
 		</dict>
 	</array>
@@ -422,9 +424,42 @@
 			<key>title</key>
 			<string>pyhitlist</string>
 		</dict>
+		<key>7A245D13449E387D</key>
+		<dict>
+			<key>displayMode</key>
+			<integer>0</integer>
+			<key>expandedState</key>
+			<array>
+				<string>x-coredata://2847BBA8-4AF3-4CC6-A4A1-2F4263938EA2/Task/p11</string>
+			</array>
+			<key>groupingLimit</key>
+			<integer>0</integer>
+			<key>hideArchivedTasks</key>
+			<true/>
+			<key>numberOfCards</key>
+			<integer>0</integer>
+			<key>scrollPositionState</key>
+			<dict>
+				<key>scrollToRow</key>
+				<integer>0</integer>
+				<key>scrollToRowOffset</key>
+				<real>0.0</real>
+			</dict>
+			<key>selectionState</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkkYXJjaGl2
+			ZXJYJG9iamVjdHMSAAGGoNEHCFRyb290gAFfEA9OU0tleWVkQXJj
+			aGl2ZXKjCwwRVSRudWxs0g0ODxBWJGNsYXNzWk5TLm9iamVjdHOA
+			AqDSEhMUFVgkY2xhc3Nlc1okY2xhc3NuYW1lohUWV05TQXJyYXlY
+			TlNPYmplY3QIERofKTI3Oj9BU1ddYml0dnd8hZCTmwAAAAAAAAEB
+			AAAAAAAAABcAAAAAAAAAAAAAAAAAAACk
+			</data>
+			<key>title</key>
+			<string>Dos</string>
+		</dict>
 	</dict>
 	<key>lastSmartFolderReloadDate</key>
-	<date>2009-04-18T11:24:03Z</date>
+	<date>2009-04-21T03:58:56Z</date>
 	<key>sourceListMode</key>
 	<integer>0</integer>
 </dict>
