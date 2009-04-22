@@ -143,6 +143,12 @@ class Task(object):
         self.osatask.completed.set(value)
     completed = property(__completed, __setcompleted)
     
+    def __canceled(self):
+        return self.osatask.canceled.get()
+    def __setcanceled(self, value):
+        self.osatask.canceled.set(value)
+    canceled = property(__canceled, __setcanceled)
+    
     @property
     def tasks(self):
         return [Task(t) for t in self.osatask.tasks[appscript.its.archived != True].get()]

@@ -33,9 +33,9 @@ class TaskTestCase(HitListTest):
     def test_03_start_date(self):
         today = TheHitList.today
         uno   = TheHitList.folders['Uno'].tasks[0]
-        self.assertEqual(len(today.tasks), 1)
-        uno.start_today()
         self.assertEqual(len(today.tasks), 2)
+        uno.start_today()
+        self.assertEqual(len(today.tasks), 3)
     
     def test_04_completed(self):
         uno = TheHitList.folders['Uno'].tasks[0]
@@ -50,6 +50,13 @@ class TaskTestCase(HitListTest):
         self.assertEqual(len(dos.tasks), 2)
         subtask = dos.tasks[0]
         self.assertEqual(subtask.title, 'Child Task 1')
+    
+    def test_06_canceled(self):
+        dos  = TheHitList.folders['Dos']
+        task = dos.tasks[1]
+        self.assertEqual(task.canceled, True)
+        task.canceled = False
+        self.assertEqual(task.canceled, False)
 
 
 if __name__ == '__main__':

@@ -4,9 +4,9 @@
 <dict>
 	<key>NSOutlineView Items folders</key>
 	<array>
-		<string>x-coredata://2847BBA8-4AF3-4CC6-A4A1-2F4263938EA2/Folder/p1</string>
 		<string>x-coredata://2847BBA8-4AF3-4CC6-A4A1-2F4263938EA2/Folder/p4</string>
 		<string>x-coredata://2847BBA8-4AF3-4CC6-A4A1-2F4263938EA2/Folder/p3</string>
+		<string>x-coredata://2847BBA8-4AF3-4CC6-A4A1-2F4263938EA2/Folder/p1</string>
 		<string>x-coredata://2847BBA8-4AF3-4CC6-A4A1-2F4263938EA2/Folder/p2</string>
 	</array>
 	<key>NSSplitView Subview Frames sourceListBottom</key>
@@ -35,12 +35,12 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErCS9wcmlvcml0eYY=
 		</data>
-		<string>35</string>
+		<string>25</string>
 		<data>
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErBHRhc2uG
 		</data>
-		<string>664</string>
+		<string>575</string>
 		<data>
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErBi9zdGFydIY=
@@ -61,10 +61,6 @@
 	<array>
 		<data>
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErBGxpc3SG
-		</data>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErCS9lc3RpbWF0ZYY=
 		</data>
 	</array>
@@ -76,10 +72,11 @@
 	<data>
 	YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkkYXJjaGl2ZXJYJG9iamVjdHMS
 	AAGGoNEHCFRyb290gAFfEA9OU0tleWVkQXJjaGl2ZXKkCwwSE1UkbnVsbNINDg8QViRj
-	bGFzc1pOUy5vYmplY3RzgAOhEYACXxA6eC1jb3JlZGF0YTovLzI4NDdCQkE4LTRBRjMt
-	NENDNi1BNEExLTJGNDI2MzkzOEVBMi9MaXN0L3AxNtIUFRYXWCRjbGFzc2VzWiRjbGFz
-	c25hbWWjFxgZXk5TTXV0YWJsZUFycmF5V05TQXJyYXlYTlNPYmplY3QIERofKTI3Oj9B
-	U1heY2p1d3l7uL3G0dXk7AAAAAAAAAEBAAAAAAAAABoAAAAAAAAAAAAAAAAAAAD1
+	bGFzc1pOUy5vYmplY3RzgAOhEYACXxBBeC1jb3JlZGF0YTovLzI4NDdCQkE4LTRBRjMt
+	NENDNi1BNEExLTJGNDI2MzkzOEVBMi9TbWFydEZvbGRlci9wMTHSFBUWF1gkY2xhc3Nl
+	c1okY2xhc3NuYW1loxcYGV5OU011dGFibGVBcnJheVdOU0FycmF5WE5TT2JqZWN0CBEa
+	HykyNzo/QVNYXmNqdXd5e7/Ezdjc6/MAAAAAAAABAQAAAAAAAAAaAAAAAAAAAAAAAAAA
+	AAAA/A==
 	</data>
 	<key>PFExtendedOutlineView tags selection</key>
 	<data>
@@ -93,7 +90,7 @@
 	<key>PFSplitView Subview Lengths sourceListBottom</key>
 	<array>
 		<real>587</real>
-		<real>241</real>
+		<real>240</real>
 	</array>
 	<key>PFSplitView Subview Lengths tasks</key>
 	<array>
@@ -107,7 +104,7 @@
 	</array>
 	<key>PFTabControl tabs objects</key>
 	<array>
-		<string>7A245D13449E387D</string>
+		<string>12DDC5E425D568C9</string>
 	</array>
 	<key>PFTabControl tabs selected index</key>
 	<integer>0</integer>
@@ -115,17 +112,17 @@
 	<array>
 		<dict>
 			<key>tabType</key>
-			<string>list</string>
+			<string>today</string>
 			<key>title</key>
-			<string>Dos</string>
+			<string>Today</string>
 			<key>viewOptions</key>
 			<dict>
 				<key>displayMode</key>
 				<integer>0</integer>
 				<key>expandedState</key>
-				<array>
-					<string>x-coredata://2847BBA8-4AF3-4CC6-A4A1-2F4263938EA2/Task/p11</string>
-				</array>
+				<array/>
+				<key>groupingAttribute</key>
+				<string>dueOrStartDate</string>
 				<key>groupingLimit</key>
 				<integer>0</integer>
 				<key>hideArchivedTasks</key>
@@ -150,7 +147,7 @@
 				AAAAABcAAAAAAAAAAAAAAAAAAACk
 				</data>
 				<key>title</key>
-				<string>Dos</string>
+				<string>Today</string>
 			</dict>
 		</dict>
 	</array>
@@ -449,17 +446,21 @@
 			<data>
 			YnBsaXN0MDDUAQIDBAUGCQpYJHZlcnNpb25UJHRvcFkkYXJjaGl2
 			ZXJYJG9iamVjdHMSAAGGoNEHCFRyb290gAFfEA9OU0tleWVkQXJj
-			aGl2ZXKjCwwRVSRudWxs0g0ODxBWJGNsYXNzWk5TLm9iamVjdHOA
-			AqDSEhMUFVgkY2xhc3Nlc1okY2xhc3NuYW1lohUWV05TQXJyYXlY
-			TlNPYmplY3QIERofKTI3Oj9BU1ddYml0dnd8hZCTmwAAAAAAAAEB
-			AAAAAAAAABcAAAAAAAAAAAAAAAAAAACk
+			aGl2ZXKmCwwSGBkfVSRudWxs0g0ODxBWJGNsYXNzWk5TLm9iamVj
+			dHOABaERgALTDRMUFRYXV05TLmJhc2VbTlMucmVsYXRpdmWABIAA
+			gANfEDp4LWNvcmVkYXRhOi8vMjg0N0JCQTgtNEFGMy00Q0M2LUE0
+			QTEtMkY0MjYzOTM4RUEyL1Rhc2svcDE20hobHB1YJGNsYXNzZXNa
+			JGNsYXNzbmFtZaIdHlVOU1VSTFhOU09iamVjdNIaGyAhoiEeV05T
+			QXJyYXkACAARABoAHwApADIANwA6AD8AQQBTAFoAYABlAGwAdwB5
+			AHsAfQCEAIwAmACaAJwAngDbAOAA6QD0APcA/QEGAQsBDgAAAAAA
+			AAIBAAAAAAAAACIAAAAAAAAAAAAAAAAAAAEW
 			</data>
 			<key>title</key>
 			<string>Dos</string>
 		</dict>
 	</dict>
 	<key>lastSmartFolderReloadDate</key>
-	<date>2009-04-21T03:58:56Z</date>
+	<date>2009-04-22T15:26:40Z</date>
 	<key>sourceListMode</key>
 	<integer>0</integer>
 </dict>
